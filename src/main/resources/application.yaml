@@ -14,4 +14,4 @@ management:
 
 spring:
   application:
-    name : "Mercadinho"
+    name : "cafeteria"

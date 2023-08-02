@@ -1,4 +1,4 @@
-package mercadinho.br;
+package cafeteria.br;
 
 import java.math.BigDecimal;
 

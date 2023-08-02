@@ -1,4 +1,4 @@
-package mercadinho.br;
+package cafeteria.br;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryCustomizer;
@@ -10,6 +10,6 @@ public class Config {
 
     @Bean
     MeterRegistryCustomizer<MeterRegistry> metricsCommonTags() {
-        return registry -> registry.config().commonTags("application", "Mercadinho");
+        return registry -> registry.config().commonTags("application", "Cafeteria");
     }
 }

@@ -25,4 +25,4 @@ scrape_configs:
     static_configs:
       - targets: ['host.docker.internal:8080']
         labels:
-          application: 'Mercadinho'
+          application: 'Cafeteria'

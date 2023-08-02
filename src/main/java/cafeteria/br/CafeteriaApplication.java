@@ -1,13 +1,13 @@
-package mercadinho.br;
+package cafeteria.br;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MercadinhoApplication {
+public class CafeteriaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MercadinhoApplication.class, args);
+		SpringApplication.run(CafeteriaApplication.class, args);
 	}
 
 }
